@@ -25,7 +25,7 @@ SECRET_KEY = '2&tkn8wlzk^fef5)imphkyc-(k!@0c_(c0rj-^l4g-kc5oit%k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'firstmarcus.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'aidynjs.pythonanywhere.com']
 
 
 # Application definition

@@ -1,6 +1,6 @@
 h1 a {
     color: #05ABE3;
-    font-family: 'Abel';
+    font-family: 'Helvetica';
 }
 
 .page-header {
@@ -20,7 +20,7 @@ h1 a {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Abel', cursive;
+    font-family: 'Helvetica', cursive;
 }
 
 .date {

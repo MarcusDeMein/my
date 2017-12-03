@@ -1,18 +1,18 @@
 <html>
 	<head>
 		<title>SDU</title>
-	</head>
-	<body>
-		<div>
-			<h1><a href="/">Sdu</a></h1>
-		</div>
+		<body>
+			<div>
+				<h1><a href="/">Sdu</a></h1>
+			</div>
 
-		{% for post in posts %}
-		<div>
-			<h1><a href="">{{ post.title }}</a></h1>
-			<p>{{ post.text|linebreaksbr }}</p>
-			<p>published: {{ post.published_date }}</p>
-		</div>
-		{% endfor %}
-	</body>
-</head>
+			{% for post in posts %}
+			<div>
+				<h1><a href="">{{ post.title }}</a></h1>
+				<p>{{ post.text|linebreaksbr }}</p>
+				<p>published: {{ post.published_date }}</p>
+			</div>
+			{% endfor %}
+		</body>	
+	</head>
+</html>
